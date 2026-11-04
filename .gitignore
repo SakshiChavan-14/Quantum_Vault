@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+*/node_modules/
+*/*/node_modules/
+
+# Python virtual environments & bytecode
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+venv/
+*/venv/
+*/*/venv/
+.venv/
+*/.venv/
+env/
+*/env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.env
+
+# Uploads & User generated test files
+QuantumValut/backend/uploads/*
+!QuantumValut/backend/uploads/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+logs/
+*/logs/
+*.log
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

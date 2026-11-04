@@ -1,0 +1,9 @@
+{
+  "venvPath": "QuantumValut/backend",
+  "venv": "venv",
+  "extraPaths": [
+    "QuantumValut/backend",
+    "QuantumValut/backend/app",
+    "QuantumValut/backend/venv/Lib/site-packages"
+  ]
+}
